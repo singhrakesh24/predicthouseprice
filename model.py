@@ -39,7 +39,7 @@ def main():
     # User input
     size = st.number_input('House size (square feet)', 
                           min_value=500, 
-                          max_value=5000, 
+                          max_value=10000, 
                           value=1500)
     
     if st.button('Predict price'):
